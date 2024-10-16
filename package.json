@@ -1,0 +1,19 @@
+{
+  "name": "bryntum-calendar-react-trpc-express-vite-monorepo",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace=server\" \"npm run dev --workspace=client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

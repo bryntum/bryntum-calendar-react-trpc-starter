@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "resourceId": 1,
+    "name": "Leadership conference",
+    "startDate": "Mon Dec 9 2024 08:00:00 GMT",
+    "endDate": "Mon Dec 9 2024 17:00:00 GMT",
+    "allDay": true
+  },
+  {
+    "id": 2,
+    "resourceId": 1,
+    "name": "HR Lecture",
+    "startDate": "Wen Dec 11 2024 16:30:00 GMT",
+    "endDate": "Wen Dec 11 2024 17:00:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 3,
+    "resourceId": 1,
+    "name": "Business Lunch with Gregory Jones",
+    "startDate": "Wen Dec 11 2024 12:30:00 GMT",
+    "endDate": "Wen Dec 11 2024 13:30:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 4,
+    "resourceId": 1,
+    "name": "Review CVs",
+    "startDate": "Fri Dec 13 2024 12:00:00 GMT",
+    "endDate": "Fri Dec 13 2024 13:00:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 5,
+    "resourceId": 2,
+    "name": "Job Interview - Laura Bailey",
+    "startDate": "Wen Dec 11 2024 10:00:00 GMT",
+    "endDate": "Wen Dec 11 2024 12:00:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 6,
+    "resourceId": 2,
+    "name": "Install new laptops in conference rooms",
+    "startDate": "Tue Dec 10 2024 13:30:00 GMT",
+    "endDate": "Tue Dec 10 2024 16:00:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 7,
+    "resourceId": 2,
+    "name": "Team planning meeting",
+    "startDate": "Mon Dec 9 2024 14:00:00 GMT",
+    "endDate": "Mon Dec 9 2024 14:30:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 8,
+    "resourceId": 2,
+    "name": "Software updates",
+    "startDate": "Mon Dec 9 2024 17:00:00 GMT",
+    "endDate": "Mon Dec 9 2024 18:00:00 GMT",
+    "recurrenceRule": "FREQ=DAILY;COUNT=5",
+    "allDay": false
+  },
+  {
+    "id": 9,
+    "resourceId": 3,
+    "name": "Stand up meeting",
+    "startDate": "Mon Dec 9 2024 09:30:00 GMT",
+    "endDate": "Mon Dec 9 2024 10:00:00 GMT",
+    "recurrenceRule": "FREQ=DAILY",
+    "allDay": false
+  },
+  {
+    "id": 10,
+    "resourceId": 3,
+    "name": "HR seminar preparation",
+    "startDate": "Thu Dec 12 2024 11:00:00 GMT",
+    "endDate": "Thu Dec 12 2024 12:30:00 GMT",
+    "allDay": false
+  },
+  {
+    "id": 11,
+    "resourceId": 3,
+    "name": "Helpdesk weekly meeting",
+    "startDate": "Fri Dec 13 2024 10:30:00 GMT",
+    "endDate": "Fri Dec 13 2024 11:30:00 GMT",
+    "recurrenceRule": "FREQ=WEEKLY;BYDAY=FR",
+    "allDay": false
+  },
+  {
+    "id": 12,
+    "resourceId": 3,
+    "name": "Server maintenance",
+    "startDate": "Fri Dec 13 2024 15:00:00 GMT",
+    "endDate": "Fri Dec 13 2024 17:00:00 GMT",
+    "allDay": false
+  }
+]

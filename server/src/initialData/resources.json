@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Alex", "eventColor": "#3183fe" },
+  { "id": 2, "name": "Bob", "eventColor": "#feac31" },
+  { "id": 3, "name": "Charlie", "eventColor": "#ff7043" }
+]
