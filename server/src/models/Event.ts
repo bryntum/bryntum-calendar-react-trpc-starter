@@ -1,7 +1,11 @@
-import { DataTypes } from 'sequelize';
+import { Model, DataTypes, InferAttributes, InferCreationAttributes } from 'sequelize';
 import sequelize from '../config/database';
+import { EventSchemaType } from '../types';
 
-const Event = sequelize.define(
+// order of InferAttributes & InferCreationAttributes is important
+interface EventModel extends Model<InferAttributes<EventModel>, InferCreationAttributes<EventModel, { omit: 'id' }>>, EventSchemaType  {}
+
+const Event = sequelize.define<EventModel>(
     'Event',
     {
         id : {

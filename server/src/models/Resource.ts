@@ -1,7 +1,11 @@
-import { DataTypes } from 'sequelize';
+import { Model, DataTypes, InferAttributes, InferCreationAttributes } from 'sequelize';
 import sequelize from '../config/database';
+import { ResourceSchemaType } from '../types';
 
-const Resource = sequelize.define(
+// order of InferAttributes & InferCreationAttributes is important
+interface ResourceModel extends Model<InferAttributes<ResourceModel>, InferCreationAttributes<ResourceModel, { omit: 'id' }>>, ResourceSchemaType  {}
+
+const Resource = sequelize.define<ResourceModel>(
     'Resource',
     {
         id : {
