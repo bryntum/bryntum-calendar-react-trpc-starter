@@ -57,7 +57,7 @@ If you open the client app in your browser, you'll see the text "App component",
 
 ## Adding npm packages to the client or server app
 
-To add an npm package to the correct app, use the `--workspace` flag with the `npm install` command. For example, to add the `zod` npm package to the `client`, use the following command from the root directory:
+To add an npm package to the correct app, use the `--workspace` flag with the `npm install` command. For example, to add the `zod` npm package to the `server`, use the following command from the root directory:
 
 ```sh
 npm install zod --workspace=server
