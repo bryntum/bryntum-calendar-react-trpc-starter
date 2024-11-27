@@ -109,14 +109,14 @@ function Calendar() {
                 });
             }
             if (action === 'update') {
-                if (`${record.id}`.startsWith('_generated')) {
-                    createEvent(record.data as EventModel);
-                }
-                else {
-                    updateEvent(Number(record.id), changes as Partial<EventModel>);
-                }
+                if (`${record.id}`.startsWith('_generated')) return;
+                updateEvent(Number(record.id), changes as Partial<EventModel>);
             }
         }
+    };
+
+    const afterEventSave = (event: EventModel) => {
+        createEvent(event.eventRecord.data as EventModel);
     };
 
     return (
@@ -125,6 +125,7 @@ function Calendar() {
             events={events}
             resources={resources}
             onDataChange={syncData}
+            onAfterEventSave={afterEventSave}
             {...calendarProps}
         />
     );
